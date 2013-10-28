@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="30dp" >
+    </View>
+
+    <EditText
+        android:id="@+id/TITLE"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/title" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="20dp" >
+    </View>
+
+    <EditText
+        android:id="@+id/DESCRIPTION"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/description" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="20dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/time_hint"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="10dp" >
+    </View>
+
+    <Button
+        android:id="@+id/addTimeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showTimePickerDialog"
+        android:text="@string/enter_time" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="15dp" >
+    </View>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/date_hint"
+        android:textSize="20sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="10dp" >
+    </View>
+
+    <Button
+        android:id="@+id/addDateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showDatePickerDialog"
+        android:text="@string/enter_date" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="25dp" >
+    </View>
+
+    <Button
+        android:id="@+id/addNewNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addnewnote" />
+
+</LinearLayout>
